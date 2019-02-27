@@ -231,7 +231,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         sDeviceID = Secure.getString(this.getContentResolver(), Secure.ANDROID_ID);
         addressET = (EditText)findViewById(R.id.addressEditText);
         String serverAddr = Utils.getPreferences(getApplicationContext(),"address");
-        addressET.setText(serverAddr==null?"tcp://47.98.206.54:8083":serverAddr);
+        addressET.setText(serverAddr==null?"tcp://47.96.206.64:8085":serverAddr);
         userNameET = (EditText)findViewById(R.id.userNameEditText);
         userNameET.setText(Utils.getPreferences(getApplicationContext(),"userName"));
         passwordET = (EditText)findViewById(R.id.passwordEditText);
