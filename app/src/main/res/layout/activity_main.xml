@@ -40,7 +40,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:hint="tcp://47.98.206.54:8083"
+                    android:hint="tcp://47.96.206.64:8083"
                     android:lines="1" >
 
                     <requestFocus />
